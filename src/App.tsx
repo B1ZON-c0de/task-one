@@ -4,10 +4,11 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-	const nowYear = new Date().getFullYear();
-	const [count, setCount] = useState(0);
+	const nowYear = new Date().getFullYear(); // Императивный стиль
+	const [count, setCount] = useState(0); // Декларативный стиль
 
 	return (
+		// Декларативный стиль
 		<>
 			<div>
 				<a href="https://vite.dev" target="_blank">
